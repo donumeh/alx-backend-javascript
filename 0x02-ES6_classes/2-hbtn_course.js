@@ -13,7 +13,7 @@ export default class HolbertonCourse {
     }
     this._name = name;
     this._length = length;
-    this._students = students.length ? students : [];
+    this._students = students;
   }
 
   set name(name) {
