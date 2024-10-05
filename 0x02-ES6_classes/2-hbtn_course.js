@@ -43,7 +43,7 @@ export default class HolbertonCourse {
       throw new TypeError('student must be an array');
     }
 
-    this._students.push(...students);
+    this._students = students;
   }
 
   get students() {
