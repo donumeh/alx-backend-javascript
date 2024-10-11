@@ -1,1 +1,0 @@
-# Main Type Entry Point
