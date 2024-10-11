@@ -1,7 +1,7 @@
-export default function divideFunction(numerator, denoominator) {
-    if (!denoominator) {
-        throw new Error('cannot divide by 0');
-    }
+export default function divideFunction(numerator, denominator) {
+  if (!denominator) {
+    throw new Error('cannot divide by 0');
+  }
 
-    return numerator / denoominator;
+  return numerator / denominator;
 }
