@@ -5,7 +5,11 @@ export default function updateUniqueItems(map) {
 
   for (const [key, value] of map) {
     if (typeof value === 'number' && value === 1) {
-      map.set(key, value * 100);
+      try {
+        map.set(key, value * 100);
+      } catch (err) {
+        throw new Error('Cannot process');
+      }
     }
   }
 }
