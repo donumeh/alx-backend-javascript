@@ -1,8 +1,8 @@
 export default function cleanSet(set, startString) {
   const matches = [];
 
-  if (!startString) {
-    return startString;
+  if (!startString || typeof startString !== 'string') {
+    return '';
   }
 
   for (const value of set) {
