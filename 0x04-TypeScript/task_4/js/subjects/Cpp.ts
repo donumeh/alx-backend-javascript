@@ -16,10 +16,8 @@ namespace Subjects {
                 return "Available Teacher: " + this.teacher.firstName;
             }
         }
-    
-        // implement for when teacher has no C experience
-    
     }
+
 }
 
 
