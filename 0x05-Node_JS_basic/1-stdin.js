@@ -1,5 +1,9 @@
 
-
+/**
+ * welcomeMessage - a welcome message
+ * 
+ * Return: Null
+ */
 const welcomeMessage = () => {
     console.log('Welcome to Holberton School, what is your name?');
 
