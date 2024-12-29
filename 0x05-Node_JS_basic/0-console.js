@@ -1,13 +1,5 @@
-/**
- *
- *  displayMessage - displays a message to stdout
- * @str: string parameter of what to print
- *
- * Return: None
- */
-
-const displayMessage = (str) => {
-  console.log(str);
-};
+function displayMessage(message) {
+  console.log(message);
+}
 
 module.exports = displayMessage;
